@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* navbar-start */
 
 body {
     font-family: "Inter", sans-serif;
@@ -12,7 +13,7 @@ body {
 nav {
     width: 100%;
     height: 70px;
-    background-color: rgb(223, 219, 219);
+    background-color: #fff;
 }
 
 .brand-logo img {
@@ -51,6 +52,7 @@ nav {
 
 .brand-items a:hover {
     color: #3f8ffc;
+    transition: 0.5s;
 }
 
 .icons  {
@@ -58,6 +60,102 @@ nav {
     margin-left: 5rem;
     gap: 1rem;
     font-size: 13px;
+}
+
+i:hover  {
+    color: #3f8ffc;
+    transition: 0.5s;
+}
+/* navabr-end */
+
+/* body-aria-start */
+.background-aria {
+    width: 100%;
+    height: 600px;
+    background-color: #D9E8FE;
+}
+
+.body-items {
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.body-items div {
+    flex: 1;
+    justify-content: space-between;
+}
+.left-aria {
+    padding: 8rem 0;
+}
+
+.left-aria h3 {
+    color: #3f8ffc;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.left-aria h2 {
+    margin: 2rem 0;
+    color: #25272b;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.left-aria p {
+    color: #00000080;
+    font-size: 17px;
+}
+
+input {
+    margin-top: 3rem;
+    padding: 28px;
+    width: 80%;
+    height: 20px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+}
+
+.right img {
+    width: 100%;
+    height: 500px;
+}
+/* body-aria-end */
+
+.product-featured h3 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 3rem;
+    color: #25272b;
+    font-weight: 500;
+}
+
+.product-featured p {
+    text-align: center;
+    color: #9da9bb;
+    margin-top: 1rem;
+    line-height: 1.5rem;
+}
+
+/* features-items */
+
+.icons i {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.products-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    height: 350px;
+    background-color: red;
 }
 
 
