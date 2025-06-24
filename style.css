@@ -182,3 +182,32 @@ input {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+.work-about-section {
+    display: flex;
+    gap: 3rem;
+    margin-left: 3rem;
+    margin-top: 5rem;
+}
+
+.work-about-section span {
+    width: 1px;
+    height: 400px;
+    background-color: #DCE9F3;
+}
+
+.image img {
+    margin-left: 8rem;
+  
+}
+
+.work-about h3 {
+    color: #25272b;
+    font-size: 18px;
+}
+
+.work-about p {
+    color: #9da9bb;
+    margin-top: 12px;
+    line-height: 1.3rem;
+}
